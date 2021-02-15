@@ -12,8 +12,10 @@
   "author": "@arangelpro",
   "license": "MIT",
   "dependencies": {
+    "@types/cors": "^2.8.10",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.1.0",
     "next": "^10.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
