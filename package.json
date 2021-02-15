@@ -1,0 +1,43 @@
+{
+  "name": "avo-nextjs",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso de NextJS [@arangelpro](https://twitter.com/arangelpro)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "@arangelpro",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.7",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.27",
+    "@types/react": "^17.0.2",
+    "husky": "^5.0.9",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "typescript": "^4.1.5"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && yarn type-check"
+    }
+  }
+}
